@@ -17,8 +17,6 @@ class App extends React.Component {
     const that = this;
     const { TodoStore } = that.props;
 
-    console.log(TodoStore);
-
     return (
       <ReactDocumentTitle title={formatMessage({ id: 'page.index.title' })}>
         <div className={styles.main}>
