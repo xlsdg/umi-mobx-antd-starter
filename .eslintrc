@@ -26,11 +26,7 @@
     "webextensions": false,
     "worker": false
   },
-  "extends": [
-    "eslint-config-alloy/react",
-    "plugin:prettier/recommended",
-    "prettier/react"
-  ],
+  "extends": ["alloy", "alloy/react", "plugin:prettier/recommended", "prettier/react"],
   "globals": {
     "BASE_HOST": true
   },
@@ -62,6 +58,7 @@
       {
         "forbid": ["id", "style"]
       }
-    ]
+    ],
+    "no-invalid-this": "off"
   }
 }
