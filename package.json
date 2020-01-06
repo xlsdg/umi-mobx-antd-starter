@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "antd": "^3.26.5",
+    "antd": "^3.26.6",
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
@@ -34,9 +34,9 @@
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-prettier": "^1.1.2",
-    "umi": "^2.12.8",
+    "umi": "^2.12.9",
     "umi-plugin-mobx-state-tree": "^0.0.1",
-    "umi-plugin-react": "^1.14.11"
+    "umi-plugin-react": "^1.14.12"
   },
   "engines": {
     "node": ">=8.0.0"
